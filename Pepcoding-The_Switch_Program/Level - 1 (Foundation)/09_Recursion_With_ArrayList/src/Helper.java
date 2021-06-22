@@ -12,4 +12,8 @@ public class Helper {
 	public static void display(ArrayList<Object> arr) {
 		System.out.println(arr);
 	}
+	
+	public static int inputInt() {
+		return scan.nextInt();
+	}
 }
