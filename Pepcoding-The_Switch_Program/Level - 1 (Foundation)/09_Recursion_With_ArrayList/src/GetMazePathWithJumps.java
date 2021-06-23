@@ -69,7 +69,7 @@ public class GetMazePathWithJumps {
 		for(int d = 0; d < dir.length; d++) {
 			
 			//call for jumps/magnitude/radius
-			for(int jump = 1; jump <= dr && jump <= dc; jump++) {
+			for(int jump = 1; jump <= Math.max(dr,dc); jump++) {
 				
 				int row = sr + jump * dir[d][0];
 				int col = sc + jump * dir[d][1];
