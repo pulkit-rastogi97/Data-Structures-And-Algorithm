@@ -36,16 +36,16 @@
 
 public class PrintDecreasing {
 
-	private static void PrintDecreasing(int n) {
+	private static void PrintDecreasingN(int n) {
 		if(n == 0)
 			return;
 		System.out.println(n);
-		PrintDecreasing(n - 1);
+		PrintDecreasingN(n - 1);
 	}
 	
 	public static void main(String[] args) {
 		int n = 9;
-		PrintDecreasing(n);
+		PrintDecreasingN(n);
 	}
 
 }
