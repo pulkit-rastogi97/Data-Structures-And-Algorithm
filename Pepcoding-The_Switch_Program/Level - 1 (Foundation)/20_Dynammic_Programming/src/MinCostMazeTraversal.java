@@ -24,6 +24,27 @@ public class MinCostMazeTraversal {
 		//memoziation to tabulation
 		answer = minCosts_memo_to_tab(0, 0, n - 1, m - 1, costs, dp);
 		System.out.println("Memoization to Tabulation approach : " + answer);
+		
+		//print all minimum cost paths
+		printMinPaths(0, 0, n - 1, m - 1, dp, "");
+	}
+
+	private static void printMinPaths(int i, int j, int k, int l, int[][] dp, String pathSoFar) {
+//		if(i == k && j == l) {
+//			System.out.println(pathSoFar);
+//			return;
+//		}
+//		
+//		int minCost = (int)1e9;
+//		for(int d = 0; d < dir.length; d++) {
+//			int row = i + dir[d][0];
+//			
+//			if(row >= 0 && col >= 0 && row <= k && col <= l) {
+//				minCost = Math.
+//			}
+//		}
+		
+		
 	}
 
 	private static int minCosts_memo_to_tab(int sr, int sc, int dr, int dc, int[][] costs, int[][] dp) {
