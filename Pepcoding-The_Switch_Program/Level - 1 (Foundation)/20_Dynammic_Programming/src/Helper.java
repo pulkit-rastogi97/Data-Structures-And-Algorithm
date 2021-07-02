@@ -24,4 +24,8 @@ public class Helper {
 		}
 		return arr;
 	}
+	
+	public static String inputString() {
+		return scan.next();
+	}
 }
