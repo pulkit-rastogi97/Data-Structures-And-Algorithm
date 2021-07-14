@@ -4,11 +4,11 @@ import java.io.InputStreamReader;
 public class FindInGenericTree {
 
 	public static boolean find(Node node, int data) {
-		boolean isFound = false;
 		//I will check my data 
 		if(node.data == data)
-			isFound = true;
+			return true;
 		
+		boolean isFound = false;
 		for(Node child : node.children) {
 			isFound = find(child, data);
 			if(isFound == true)
