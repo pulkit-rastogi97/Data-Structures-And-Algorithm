@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Question: Convert a decimal number to the provided base number
  * 
- * @author Dell
+ * @author pulkit-rastogi97
  *
  */
 public class ConvertDecimalToAnyBase {
