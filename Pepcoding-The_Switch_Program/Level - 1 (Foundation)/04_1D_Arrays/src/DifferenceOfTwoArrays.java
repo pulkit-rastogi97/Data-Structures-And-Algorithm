@@ -11,7 +11,7 @@ public class DifferenceOfTwoArrays {
 		int[] arr2 = InputUtils.takeArrayInput();
 
 		int[] difference = calculateDifference(arr1, arr2);
-		OutputUtils.printArray(difference);
+		OutputUtils.printArray(difference); //leading zeroes will be printed.
 	}
 
 	/**
